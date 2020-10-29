@@ -21,13 +21,12 @@ public class Korpa {
 
     public Artikl izbaciArtiklSaKodom(String kod) {
         Artikl a = null;
+
         for (int i = 0; i < broj_popunjenih; i++) {
 
             if (artikli[i].getKod().equals(kod)) {
-                a=artikli[i];
-                for (int j = i; j < broj_popunjenih - 1; j++) {
-                    artikli[j] = artikli[j + 1];
-                }
+                a = artikli[i];
+                artikli[i] = null;
             }
         }
         return a;
