@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20c6cbd3-9f39-403a-9634-6c0be92d90da" name="Default Changelist" comment="Dodane klase koje nedostaju i popravljeni neki bagovi, testirana aplikacija, valjda radi">
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jPmP0NlXVyzLTVi34g9R2135OW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ba.unsa.etf.rpr" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in rpr2019-t1-z4">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in rpr2019-t1-z4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in rpr2019-t1-z4" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20c6cbd3-9f39-403a-9634-6c0be92d90da" name="Default Changelist" comment="" />
+      <created>1603714072643</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603714072643</updated>
+      <workItem from="1603714073749" duration="2999000" />
+      <workItem from="1603964168611" duration="1044000" />
+      <workItem from="1603975119166" duration="1383000" />
+      <workItem from="1603980754244" duration="5716000" />
+      <workItem from="1603998309102" duration="364000" />
+      <workItem from="1603998702506" duration="3627000" />
+      <workItem from="1604003559932" duration="3847000" />
+      <workItem from="1604234056619" duration="2200000" />
+      <workItem from="1604305251770" duration="1263000" />
+      <workItem from="1604314601344" duration="2608000" />
+    </task>
+    <task id="LOCAL-00001" summary="Dodane klase koje nedostaju">
+      <created>1603996652214</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603996652214</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Dodane klase koje nedostaju i popravljeni neki bagovi">
+      <created>1603997665424</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603997665424</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Dodane klase koje nedostaju i popravljeni neki bagovi">
+      <created>1603997865613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603997865613</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Dodane klase koje nedostaju i popravljeni neki bagovi, testirana aplikacija, valjda radi">
+      <created>1604006783731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604006783731</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Dodane klase koje nedostaju" />
+    <MESSAGE value="Dodane klase koje nedostaju i popravljeni neki bagovi" />
+    <MESSAGE value="Dodane klase koje nedostaju i popravljeni neki bagovi, testirana aplikacija" />
+    <MESSAGE value="Dodane klase koje nedostaju i popravljeni neki bagovi, testirana aplikacija, valjda radi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodane klase koje nedostaju i popravljeni neki bagovi, testirana aplikacija, valjda radi" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="294" y="159" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603998675848">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="294" y="159" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1603998675848" />
+    <state x="92" y="92" width="1496" height="826" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1604319122939">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="92" y="92" width="1496" height="826" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1604319122939" />
+    <state x="645" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1604318666069">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="645" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1604318666069" />
+    <state x="200" y="259" key="FileChooserDialogImpl" timestamp="1603714159672">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="200" y="259" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1603714159672" />
+    <state width="1636" height="309" key="GridCell.Tab.0.bottom" timestamp="1604319279907">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1636" height="309" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1604319279907" />
+    <state width="1636" height="309" key="GridCell.Tab.0.center" timestamp="1604319279906">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1636" height="309" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1604319279906" />
+    <state width="1636" height="309" key="GridCell.Tab.0.left" timestamp="1604319279906">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1636" height="309" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1604319279906" />
+    <state width="1636" height="309" key="GridCell.Tab.0.right" timestamp="1604319279907">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1636" height="309" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1604319279906" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1604007484970">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1604007484970" />
+    <state x="544" y="396" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604234319925">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="544" y="396" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1680.1010@0.0.1680.1010" timestamp="1604234319925" />
+    <state x="611" y="274" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604317873533">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="611" y="274" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1604317873533" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$Main.ic" NAME="Main Coverage Results" MODIFIED="1604318459153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+  </component>
+</project>
