@@ -30,4 +30,7 @@ public class Supermarket {
         return a;
     }
 
+    public int getBroj_popunjenih() {
+        return broj_popunjenih;
+    }
 }

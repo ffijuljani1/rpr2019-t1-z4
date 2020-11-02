@@ -1,11 +1,38 @@
 package ba.unsa.etf.rpr;
 
+import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class KorpaTest {
 
+
+    @AfterAll
+    static void integracijskiTest() {
+
+        Korpa korpa = new Korpa();
+
+        korpa.dodajArtikl(new Artikl("Biciklo", 1000, "1"));
+        korpa.dodajArtikl(new Artikl("Biciklo", 1000, "2"));
+        korpa.dodajArtikl(new Artikl("Biciklo", 1000, "3"));
+        korpa.dodajArtikl(new Artikl("Biciklo", 1000, "4"));
+        korpa.dodajArtikl(new Artikl("Biciklo", 1000, "5"));
+        korpa.dodajArtikl(new Artikl("Biciklo", 1000, "6"));
+
+        assertEquals(6, korpa.getBroj_popunjenih());
+
+        int cijena = korpa.dajUkupnuCijenuArtikala();
+        assertEquals(6000, cijena);
+        int broj_izbacenih=0;
+        korpa.izbaciArtiklSaKodom("3");
+
+        for(int i=0; i< korpa.getBroj_popunjenih(); i++) {
+            if(korpa.artikli[i] == null) broj_izbacenih++;
+        }
+        assertEquals(1, broj_izbacenih);
+
+    }
 
 
     @Test
@@ -50,4 +77,9 @@ class KorpaTest {
         //vrsimo provjeru pomocu postojece metode dajUkupnuCijenuArtikala.
 
     }
+
+    // integracijski test ??
+
+
+
 }

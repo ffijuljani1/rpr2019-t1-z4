@@ -19,12 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20c6cbd3-9f39-403a-9634-6c0be92d90da" name="Default Changelist" comment="Dodane klase koje nedostaju i popravljeni neki bagovi, testirana aplikacija, valjda radi">
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
+    <list default="true" id="20c6cbd3-9f39-403a-9634-6c0be92d90da" name="Default Changelist" comment="Testovi za klasu Korpa">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Supermarket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/KorpaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/KorpaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/SupermarketTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr2019-t1-z4/ba/unsa/etf/rpr/SupermarketTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,9 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="KorpaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in rpr2019-t1-z4" />
+        <item itemvalue="JUnit.KorpaTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -123,7 +141,7 @@
       <workItem from="1604003559932" duration="3847000" />
       <workItem from="1604234056619" duration="2200000" />
       <workItem from="1604305251770" duration="1263000" />
-      <workItem from="1604314601344" duration="2608000" />
+      <workItem from="1604314601344" duration="4200000" />
     </task>
     <task id="LOCAL-00001" summary="Dodane klase koje nedostaju">
       <created>1603996652214</created>
@@ -153,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604006783731</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Testovi za klasu Korpa">
+      <created>1604319718271</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604319718271</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Testovi za klasu Korpa">
+      <created>1604319733152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604319733152</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +208,8 @@
     <MESSAGE value="Dodane klase koje nedostaju i popravljeni neki bagovi" />
     <MESSAGE value="Dodane klase koje nedostaju i popravljeni neki bagovi, testirana aplikacija" />
     <MESSAGE value="Dodane klase koje nedostaju i popravljeni neki bagovi, testirana aplikacija, valjda radi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodane klase koje nedostaju i popravljeni neki bagovi, testirana aplikacija, valjda radi" />
+    <MESSAGE value="Testovi za klasu Korpa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testovi za klasu Korpa" />
   </component>
   <component name="WindowStateProjectService">
     <state x="294" y="159" width="1092" height="716" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603998675848">
@@ -187,34 +220,34 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="92" y="92" width="1496" height="826" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1604319122939" />
-    <state x="645" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1604318666069">
+    <state x="645" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1604320795229">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="645" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1604318666069" />
+    <state x="645" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1604320795229" />
     <state x="200" y="259" key="FileChooserDialogImpl" timestamp="1603714159672">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="200" y="259" key="FileChooserDialogImpl/0.0.1680.1010@0.0.1680.1010" timestamp="1603714159672" />
-    <state width="1636" height="309" key="GridCell.Tab.0.bottom" timestamp="1604319279907">
+    <state width="1636" height="309" key="GridCell.Tab.0.bottom" timestamp="1604320819097">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="309" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1604319279907" />
-    <state width="1636" height="309" key="GridCell.Tab.0.center" timestamp="1604319279906">
+    <state width="1636" height="309" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1604320819097" />
+    <state width="1636" height="309" key="GridCell.Tab.0.center" timestamp="1604320819097">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="309" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1604319279906" />
-    <state width="1636" height="309" key="GridCell.Tab.0.left" timestamp="1604319279906">
+    <state width="1636" height="309" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1604320819097" />
+    <state width="1636" height="309" key="GridCell.Tab.0.left" timestamp="1604320819096">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="309" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1604319279906" />
-    <state width="1636" height="309" key="GridCell.Tab.0.right" timestamp="1604319279907">
+    <state width="1636" height="309" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1604320819096" />
+    <state width="1636" height="309" key="GridCell.Tab.0.right" timestamp="1604320819097">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1636" height="309" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1604319279906" />
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1604007484970">
+    <state width="1636" height="309" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1604320819097" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2" timestamp="1604319704502">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1604007484970" />
+    <state x="432" y="237" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1604319704502" />
     <state x="544" y="396" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604234319925">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -223,8 +256,13 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="611" y="274" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1604317873533" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1604320411476">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1604320411476" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$All_in_rpr2019_t1_z4.ic" NAME="All in rpr2019-t1-z4 Coverage Results" MODIFIED="1604320678500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/rpr2019_t1_z4$Main.ic" NAME="Main Coverage Results" MODIFIED="1604318459153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ba.unsa.etf.rpr.*</FILTER>
     </SUITE>
