@@ -24,7 +24,7 @@ public class Korpa {
 
         for (int i = 0; i < broj_popunjenih; i++) {
 
-            if (artikli[i].getKod().equals(kod)) {
+            if (artikli[i] != null && artikli[i].getKod().equals(kod)) {
                 a = artikli[i];
                 artikli[i] = null;
             }
@@ -40,4 +40,7 @@ public class Korpa {
         return suma;
     }
 
+    public int getBroj_popunjenih() {
+        return broj_popunjenih;
+    }
 }
