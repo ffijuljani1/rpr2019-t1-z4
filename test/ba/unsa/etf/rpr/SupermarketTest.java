@@ -17,20 +17,6 @@ class SupermarketTest {
 
     }
 
-
-    /*public Artikl izbaciArtiklSaKodom(String kod) {
-        Artikl a = null;
-
-        for (int i = 0; i < broj_popunjenih; i++) {
-            if (artikli[i]!=null && artikli[i].getKod().equals(kod)) {
-                a = artikli[i];
-                artikli[i] = null;
-            }
-        }
-        return a;
-    }*/
-
-
     @Test
     void izbaciArtiklSaKodom() {
         Supermarket supermarket = new Supermarket();
@@ -45,6 +31,7 @@ class SupermarketTest {
         for(int i=0; i<supermarket.getBroj_popunjenih(); i++) {
             if(supermarket.artikli[i] == null) broj_izbacenih++;
         }
+        assertEquals(1, broj_izbacenih);
 
     }
 }

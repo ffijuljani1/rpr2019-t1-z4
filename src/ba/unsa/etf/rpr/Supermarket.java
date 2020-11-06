@@ -25,6 +25,7 @@ public class Supermarket {
             if (artikli[i]!=null && artikli[i].getKod().equals(kod)) {
                 a = artikli[i];
                 artikli[i] = null;
+
             }
         }
         return a;
